@@ -6,15 +6,26 @@
     <title>Amped</title>
     <link href="stylesheets/style.css" rel="stylesheet">
           <header>
-            <h1><center>Amped</center></h1>
+            <h1><center></center></h1>
           </header>
   </head>
+  <center>
+  <button onclick="myFunction()">Visualizer</button>
+  </center>
+    <script>
+  function myFunction() {
+      var x = document.getElementById('visualizer');
+      if (x.style.display === 'none') {
+          x.style.display = 'block';
+      } else {
+          x.style.display = 'none';
+      }
+  }
+  </script>
+  <center>
   <svg id="visualizer" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-
   <mask id="mask">
-      <g id="maskGroup">
-    </g>
   </mask>
   <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#23d98b;stop-opacity:1" />
@@ -23,15 +34,20 @@
       <stop offset="100%" style="stop-color:#4e23d9;stop-opacity:1" />
   </linearGradient>
   </defs>
-  <rect width="95%" height="100%" fill="url(#gradient)"  mask="url(#mask)"></rect>
+  <rect  width="95%" height="100%";  fill="url(#gradient)"   mask="url(#mask)"></rect>
   </svg>
+</center>
   <body>
+<script src="javascripts/fb.js"></script>
+
+
     <div class="wrapper">
       <section class="main-controls">
     <canvas class="visualizer"></canvas>
         <div id="buttons">
           <button class="record">Record</button>
           <button class="stop">Stop</button>
+          <%# <button class="effect">Effect</button>%>
         </div>
       </section>
 
@@ -53,8 +69,8 @@
 
 
     <!-- Below is your custom application script -->
+    <script src="javascripts/pizzicato.js"></script>
     <script src="javascripts/recorder.js"></script>
-    <script src ="javascipts/.js"></script>
     <script src="javascripts/FileSaver.js"></script>
     <script src ="javascripts/visualizer.js"></script>
   </body>

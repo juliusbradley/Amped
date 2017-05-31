@@ -5,7 +5,8 @@
 }
 
 svg{
-display: block;
+  width: 30%;
+  height: 30%;
 padding: 0;
 margin: 0;
 position:static;
@@ -77,9 +78,7 @@ button:active {
 }
 
 
-/* Make the clips use as much space as possible, and
- * also show a scrollbar when there are too many clips to show
- * in the available space */
+
 .sound-clips {
   flex: 1;
   overflow: auto;
@@ -115,7 +114,6 @@ button.delete {
   font-size: 0.8rem;
 }
 
-/* Checkbox hack to control information box display */
 
 label {
   font-size: 3rem;
@@ -152,21 +150,20 @@ aside a {
   color: #666;
 }
 
-/* Toggled State of information box */
+
 input[type=checkbox]:checked ~ aside {
   transform: translateX(0);
 }
 
-/* Cursor when clip name is clicked over */
+
 
 .clip p {
   cursor: pointer;
 }
 
-/* Adjustments for wider screens */
+
 @media all and (min-width: 800px) {
-  /* Don't take all the space as readability is lost when line length
-     goes past a certain size */
+
   .wrapper {
     width: 90%;
     max-width: 1000px;
