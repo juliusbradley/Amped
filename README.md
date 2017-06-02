@@ -3,3 +3,9 @@ Web application that allows users to utilize the computer’s internal microphon
 
   The user has an option to add audio effects to their recording and use a sound visualizer to monitor the microphone input levels. After the recording is finished, the user can share their file on Facebook or save it to their computer. This is a Single Page Application primarily constructed with JavaScript. 
 Technologies: JavaScript, Express.js, HTML, CSS, MediaRecorder API, Web Audio API 
+
+
+#### Home Page ####
+![Alt text](/app/public/images/Amped3.png)
+***
+
