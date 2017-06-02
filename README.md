@@ -6,6 +6,6 @@ Technologies: JavaScript, Express.js, HTML, CSS, MediaRecorder API, Web Audio AP
 
 
 #### Home Page ####
-![Alt text](/app/public/images/Amped3.png)
+![Alt text](/public/images/Amped3.png)
 ***
 
