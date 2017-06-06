@@ -5,7 +5,7 @@ Web application that allows users to utilize the computer’s internal microphon
 Technologies: JavaScript, Express.js, HTML, CSS, MediaRecorder API, Web Audio API
 
 https://amped-jb.herokuapp.com/
-
+*Currently the deployed app is only fully compatible with the Chrome browser
 
 #### Home Page ####
 ![Alt text](/public/images/Amped.png)
